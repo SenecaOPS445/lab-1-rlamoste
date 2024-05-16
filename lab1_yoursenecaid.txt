@@ -46,6 +46,6 @@ OPS435 Lab Report - System Information for running ./CheckLab1.py
     Python executable: /usr/bin/python3
     Python version: 3123
     OS Platform: linux
-    Working Directory: /home/renante/old_ops445_new1/lab1
-    Start at: Wed May 15 23:55:06 2024
+    Working Directory: /home/renante/ops445/lab1
+    Start at: Wed May 15 23:49:37 2024
 =================================================================
