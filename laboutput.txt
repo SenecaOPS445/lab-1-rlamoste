@@ -10,19 +10,27 @@ test_a1 (__main__.lab1a.test_a1)
 test_b (__main__.lab1a.test_b)
 [Lab 1] - [Investigation 3] - [Part 2] - printing - Test output for correct output "Hello world": ./lab1a.py ... ok
 test_0 (__main__.lab1b.test_0)
-[Lab 1] - [Investigation 4] - string objects & printing - Test for file creation: ./lab1b.py ... FAIL
+[Lab 1] - [Investigation 4] - string objects & printing - Test for file creation: ./lab1b.py ... ok
+test_a (__main__.lab1b.test_a)
+[Lab 1] - [Investigation 4] - string objects & printing - Test for errors running: ./lab1b.py ... ok
+test_a1 (__main__.lab1b.test_a1)
+[Lab 1] - [Investigation 4] - string objects & printing - Test for correct shebang line: ./lab1b.py ... ok
+test_b (__main__.lab1b.test_b)
+[Lab 1] - [Investigation 4] - string objects & printing - Test for correct output "How old are you Isaac?": ./lab1b.py ... ok
+test_0 (__main__.lab1c.test_0)
+[Lab 1] - [Investigation 4] - integer objects & printing - Test for file creation: ./lab1c.py ... FAIL
 
 ======================================================================
-FAIL: test_0 (__main__.lab1b.test_0)
-[Lab 1] - [Investigation 4] - string objects & printing - Test for file creation: ./lab1b.py
+FAIL: test_0 (__main__.lab1c.test_0)
+[Lab 1] - [Investigation 4] - integer objects & printing - Test for file creation: ./lab1c.py
 ----------------------------------------------------------------------
 Traceback (most recent call last):
-  File "/home/renante/ops445/lab1/./CheckLab1.py", line 98, in test_0
-    self.assertTrue( os.path.exists('./lab1b.py'), msg=error_output)
+  File "/home/renante/ops445/lab1/./CheckLab1.py", line 135, in test_0
+    self.assertTrue( os.path.exists('./lab1c.py'), msg=error_output)
 AssertionError: False is not true : your file cannot be found(HINT: make sure you AND your file are in the correct directory)
 
 ----------------------------------------------------------------------
-Ran 5 tests in 0.191s
+Ran 9 tests in 0.053s
 
 FAILED (failures=1)
 OPS435 Lab Report - System Information for running ./CheckLab1.py
@@ -34,5 +42,5 @@ OPS435 Lab Report - System Information for running ./CheckLab1.py
     Python version: 3123
     OS Platform: linux
     Working Directory: /home/renante/ops445/lab1
-    Start at: Wed May 15 22:13:25 2024
+    Start at: Wed May 15 22:44:45 2024
 =================================================================
